@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+.container{
+    background-color: tomato;
+    width:100px;
+    height:100px;
+
+}
+
+        .andy{
+            /* width:70px; */
+           /* display:inline; */
+            /* height: 70px; */
+            display: block;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            /* font-size: 100px; */
+            /* text-align: center; */
+            /* margin: auto 0; */
+        }
+    
+       body {
+    
+        display: flex;
+        justify-content: center;
+        background-color: gold;
+        margin: 0;
+        align-items: center;
+        height: 80vh;
+       }
+
+
+.my-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: relative;
+}
+
+.my-button .divider {
+  position: absolute;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  height: 100%;
+}
+
+.my-button span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: calc(50% - 1px);
+  padding: 0 10px;
+}
+    
+    </style>
+</head>
+
+
+<body>
+
+
+    
+
+   <div class="container">
+    <div class="andy">text</div>
+   </div>
+
+
+   <button class="my-button">
+    <span>Text One</span>
+    <span class="divider"></span>
+    <span>Text Two</span>
+  </button>
+  
+       
+    
+    
+</body>
+</html>

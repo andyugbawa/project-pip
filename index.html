@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rough work</title>
+  </head>
+  <body>
+
+    <div class="nav-container">
+      <div class="nav-container-logo-icon">
+       
+        <div class="nav-logo">
+         <svg xmlns="http://www.w3.org/2000/svg" width="752" height="100%">
+          <g fill="#FFF" fill-rule="evenodd">
+            <path d="M230.376 57.236a20.365 20.365 0 013.308-.268 20.288 20.288 0 0114.912 6.507c.182.003.365.004.548.004 9.115 0 16.83-2.998 19.416-7.13a40.852 40.852 0 00-11.65-12.448 40.492 40.492 0 00-23.226-7.279c-22.47 0-40.684 18.219-40.684 40.692s18.215 40.691 40.684 40.691c12.56 0 23.79-5.692 31.253-14.637l-.036-.017a40.81 40.81 0 003.66-5.133c-2.588-4.132-10.302-7.13-19.417-7.13-.183 0-.366.002-.548.004a20.285 20.285 0 01-14.912 6.508c-1.126 0-2.232-.091-3.308-.268a.124.124 0 00-.027.056c-9.648-1.591-17.007-9.973-17.007-20.073 0-10.11 7.373-18.498 17.034-20.078zm84.676-20.614c22.47 0 40.685 18.219 40.685 40.692s-18.215 40.691-40.685 40.691c-22.469 0-40.684-18.218-40.684-40.691 0-22.473 18.215-40.692 40.684-40.692zm0 20.346c-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346zm109.708 54.69a40.488 40.488 0 01-21.83 6.347c-22.47 0-40.684-18.218-40.684-40.691 0-22.473 18.215-40.692 40.684-40.692 7.41 0 14.358 1.982 20.342 5.444V10.58h.016a5.188 5.188 0 01-.016-.407C423.272 4.555 432.38 0 443.614 0v118.005c-8.529 0-15.831-2.625-18.854-6.347zM402.93 97.66c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346zm131.683-23.538c.008.114.012.229.012.343 0 5.598-9.042 10.14-20.22 10.173h-39.326c2.94 7.618 10.33 13.022 18.984 13.022 2.593 0 5.073-.486 7.354-1.37a20.375 20.375 0 007.557-5.137c.183-.003.365-.004.549-.004 9.114 0 16.829 2.998 19.416 7.13a40.88 40.88 0 01-7.372 9.02c-7.242 6.648-16.9 10.706-27.504 10.706-22.47 0-40.685-18.218-40.685-40.691 0-22.473 18.215-40.692 40.685-40.692 21.393 0 38.93 16.516 40.56 37.495l-.01.005zm-58.823-5.76h36.545c-3.311-6.749-10.25-11.394-18.272-11.394-8.023 0-14.961 4.645-18.273 11.394zm89.063-26.296a40.491 40.491 0 0120.342-5.444c22.47 0 40.684 18.219 40.684 40.692s-18.215 40.691-40.684 40.691a40.491 40.491 0 01-20.342-5.443V153c-11.235 0-20.342-4.555-20.342-10.173 0-.136.005-.272.016-.407h-.016V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.107-10.173 20.342-10.173v5.444zm18.715 55.594c11.234 0 20.342-9.11 20.342-20.346 0-11.237-9.108-20.346-20.342-20.346-11.235 0-20.342 9.11-20.342 20.346s9.107 20.346 20.342 20.346zm72.417-61.038v79.901c-3.082.94-6.703 1.482-10.577 1.482-3.539 0-6.866-.451-9.765-1.246V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.108-10.173 20.342-10.173zM645.815 0c6.965 0 12.611 5.648 12.611 12.614 0 6.967-5.646 12.615-12.612 12.615-6.965 0-12.612-5.648-12.612-12.615C633.202 5.648 638.85 0 645.814 0zm45.159 42.066a40.491 40.491 0 0120.342-5.444c22.47 0 40.684 18.219 40.684 40.692s-18.215 40.691-40.684 40.691a40.491 40.491 0 01-20.342-5.443V153c-11.235 0-20.342-4.555-20.342-10.173 0-.136.005-.272.016-.407h-.016V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.107-10.173 20.342-10.173v5.444zm19.528 55.594c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346z"/><path fill-opacity=".7" d="M109.533 13.683l29.784 29.784c18.244 18.244 18.244 47.823 0 66.067l-29.783 29.783c-18.244 18.244-47.823 18.244-66.067 0l-29.784-29.784c-18.244-18.244-18.244-47.823 0-66.067l29.783-29.783c18.244-18.244 47.823-18.244 66.067 0zM76.43 53.839c-12.478 0-22.592 10.114-22.592 22.592 0 12.477 10.114 22.592 22.592 22.592 12.477 0 22.592-10.115 22.592-22.592 0-12.478-10.115-22.592-22.592-22.592z"/><path d="M76.5 0v53.84h-.07c-12.476 0-22.59 10.114-22.59 22.59 0 12.476 10.114 22.59 22.59 22.59l.069-.002V153c-11.723 0-23.447-4.366-32.518-13.103l-.673-.661-29.644-29.71c-18.219-18.26-18.219-47.793 0-66.051l29.644-29.71C52.462 4.59 64.48 0 76.5 0z"/>
+          </g>
+        </svg>
+        </div>
+        <i class="fa-solid fa-bars " id="nav-btn"></i>
+
+      </div>
+
+      <div class="nav-menu">
+        <div class="nav-menu-game">
+          <div class="nav-menu-game-game">Game</div>
+          <div class="nav-menu-game-plan">Plan</div>
+          <div class="nav-menu-game-blog">Blog</div>
+        </div>
+        <div class="nav-menu-login">
+          <div class="nav-menu-login-login">Log in</div>
+          <div class="nav-menu-login-singup">Sign up</div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="head-container">
+      <h2>Games</h2>
+      <div class="show-container">
+
+        <div class="show__all menu-btn-width">Show All</div>
+
+        <div class="html-css-js menu-btn-width ">
+          <div class="btn">HTML</div>
+          <div class= "btn">CSS</div>
+          <div class="btn">JS</div>
+        </div>
+
+        <div class="free-pro menu-btn-width">
+          <div class="free__pro btn">Free</div>
+          <div class="btn" id="pro__free">Pro</div>
+        </div>
+       
+        <div class="curriculum btn menu-btn-width">Curriculum</div>
+
+      </div>
+    </div>
+
+    <div class="cards__container">
+      <div class="cards">
+          <div class="card card1">
+              <img src="./image/cascade (1).png1.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Cascade</p>
+                  <div> 
+                      <button>CSS</button>
+                      <button>PRO</button>
+                  </div>
+                 <p class="card__Heading__footer">A stream of rapid-fire CSS microgames</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+          </div>
+
+
+
+          <div class="card  card2">
+              <img src="./image/code-crunchers (1).png2.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Code crunchers</p>
+                  <button class="my-button"> 
+                      <span>JS MATH</span>
+                      <span class="divider"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning javascript Math</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+          </div>
+          
+          <div class="card  card3">
+              <img src="./image/css-scoops.png3.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">CSS Scoops</p>
+                  <button class="my-button">
+                      <span>CSS  SELECTORS</span>
+                      <span class="divider2"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning CSS Selectors</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card4">
+              <img src="./image/css-surgeon.png4.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">CSS Surgeon</p>
+                  <button class="my-button"> 
+                      <span>CSS TRANSFORM</span>
+                      <span class="divider3"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning to scale, rotate,<br>and move elements with CSS<br> transform</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card5">
+              <img src="./image/disarray.png5.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Dissaray</p>
+                  <button class="my-button"> 
+                      <span>JS ARRAYS</span>
+                      <span class="divider4"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning javascript array methods</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card card6">
+              <img src="./image/flexbox-froggy-pro.png7.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Flexbox Froggy</p>
+                  <button class="my-button"> 
+                      <span>CSS  FLEXBOX</span>
+                      <span class="divider5"></span>
+                      <button>FREE</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning CSS flexbox</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card7">
+              <img src="./image/flexbox-froggy.png6.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Flexbox Froggy Pro</p>
+                  <button class="my-button"> 
+                      <span>CSS FLEXBOX</span>
+                      <span class="divider6"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for mastering CSS flexbox with infinite practice levels</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card8">
+              <img src="./image/grid-garden.png8.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Grid Garden</p>
+                  <button class="my-button"> 
+                      <span>CSS  GRID</span>
+                      <span class="divider7"></span>
+                      <button>FREE</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning CSS grid</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card9">
+              <img src="./image/intl-delivery.png9.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <span class="grid__new">NEW</span>
+                  <p class="card__Heading">Intl Delivery</p>
+                  <button class="my-button"> 
+                      <span>JS  INTERNALIZATION</span>
+                      <span class="divider8"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning the javascript<br> internalization API</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  crad10">
+              <img src="./image/nester.png10.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Nester</p>
+                  <div> 
+                      <button>HTML</button>
+                      <button>PRO</button>
+                  </div>
+                 <p class="card__Heading__footer">A game for nesting HTML code</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card card11">
+              <img src="./image/nth-cart.png11.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Nth cart</p>
+                  <button class="my-button"> 
+                      <span>CSS    SELECTORS</span>
+                      <span class="divider9"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learnig about the :nth-<br>child() CSS selectors</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card  card12">
+              <img src="./image/pathfinder.png12.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Pathfinder</p>
+                  <div> 
+                      <button>HTML</button>
+                      <button>PRO</button>
+                  </div>
+                 <p class="card__Heading__footer">A game for constructing file paths</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card card13">
+              <img src="./image/selector-showdown.png13.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Selector Showdown</p>
+                  <button class="my-button"> 
+                      <span>CSS  SELECTORS</span>
+                      <span class="divider10"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game about CSS selector specificity</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card card14">
+              <img src="./image/sherlock-scopes.png14.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <span class="showdown__soon">COMING SOON</span>
+                  <p class="card__Heading">Sherlock Scoops</p>
+                  <button class="my-button"> 
+                      <span>JS  SCOPE</span>
+                      <span class="divider11"></span>
+                      <button>PRO</button>
+                  </button>
+                 <p class="card__Heading__footer">A game for learning javascript scope</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          <div class="card card15">
+              <img src="./image/sourcery.png15.png" alt="card name" width="100%" height="230px" >
+              <div class="card__textandbtn">
+                  <p class="card__Heading">Sourcery</p>
+                  <div> 
+                      <button>HTML</button>
+                      <button>PRO</button>
+                  </div>
+                 <p class="card__Heading__footer">A magical game of coding HTML with Emmet</p>
+              </div>
+              <div class="card__footer">
+                  <div class="progress-bar">
+                  </div>
+              </div>
+              
+          </div>
+          
+      </div>
+    </div> 
+
+
+    <div class="footer-bottom">
+        <div class="card-container">
+            <div class="card-content">
+                <div class="redbox">
+                    <h1 class="updates">Get the latest updates</h1>
+                    <div class="text1">
+                        <p class="part-text">Enter your email to hear new games and exclusive offers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content1">
+                <div class="greenbox">
+                    <form>
+                        <input type="text" placeholder="Your email...">
+                    </form>
+                    <div class="button1">
+                        <button class="btn1">Subscribe</button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p class=para-text>You can unsubscribe at any time.</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <!-- <div >
+    <div class="box"></div>
+    </div> -->
+
+
+<div class="footer-container">
+  <div class="footer__content">
+     <div class="footer__logo">
+      <div class="footer__box">
+         <svg xmlns="http://www.w3.org/2000/svg" width="752" height="153"><g fill="#FFF" fill-rule="evenodd"><path d="M230.376 57.236a20.365 20.365 0 013.308-.268 20.288 20.288 0 0114.912 6.507c.182.003.365.004.548.004 9.115 0 16.83-2.998 19.416-7.13a40.852 40.852 0 00-11.65-12.448 40.492 40.492 0 00-23.226-7.279c-22.47 0-40.684 18.219-40.684 40.692s18.215 40.691 40.684 40.691c12.56 0 23.79-5.692 31.253-14.637l-.036-.017a40.81 40.81 0 003.66-5.133c-2.588-4.132-10.302-7.13-19.417-7.13-.183 0-.366.002-.548.004a20.285 20.285 0 01-14.912 6.508c-1.126 0-2.232-.091-3.308-.268a.124.124 0 00-.027.056c-9.648-1.591-17.007-9.973-17.007-20.073 0-10.11 7.373-18.498 17.034-20.078zm84.676-20.614c22.47 0 40.685 18.219 40.685 40.692s-18.215 40.691-40.685 40.691c-22.469 0-40.684-18.218-40.684-40.691 0-22.473 18.215-40.692 40.684-40.692zm0 20.346c-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346zm109.708 54.69a40.488 40.488 0 01-21.83 6.347c-22.47 0-40.684-18.218-40.684-40.691 0-22.473 18.215-40.692 40.684-40.692 7.41 0 14.358 1.982 20.342 5.444V10.58h.016a5.188 5.188 0 01-.016-.407C423.272 4.555 432.38 0 443.614 0v118.005c-8.529 0-15.831-2.625-18.854-6.347zM402.93 97.66c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346zm131.683-23.538c.008.114.012.229.012.343 0 5.598-9.042 10.14-20.22 10.173h-39.326c2.94 7.618 10.33 13.022 18.984 13.022 2.593 0 5.073-.486 7.354-1.37a20.375 20.375 0 007.557-5.137c.183-.003.365-.004.549-.004 9.114 0 16.829 2.998 19.416 7.13a40.88 40.88 0 01-7.372 9.02c-7.242 6.648-16.9 10.706-27.504 10.706-22.47 0-40.685-18.218-40.685-40.691 0-22.473 18.215-40.692 40.685-40.692 21.393 0 38.93 16.516 40.56 37.495l-.01.005zm-58.823-5.76h36.545c-3.311-6.749-10.25-11.394-18.272-11.394-8.023 0-14.961 4.645-18.273 11.394zm89.063-26.296a40.491 40.491 0 0120.342-5.444c22.47 0 40.684 18.219 40.684 40.692s-18.215 40.691-40.684 40.691a40.491 40.491 0 01-20.342-5.443V153c-11.235 0-20.342-4.555-20.342-10.173 0-.136.005-.272.016-.407h-.016V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.107-10.173 20.342-10.173v5.444zm18.715 55.594c11.234 0 20.342-9.11 20.342-20.346 0-11.237-9.108-20.346-20.342-20.346-11.235 0-20.342 9.11-20.342 20.346s9.107 20.346 20.342 20.346zm72.417-61.038v79.901c-3.082.94-6.703 1.482-10.577 1.482-3.539 0-6.866-.451-9.765-1.246V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.108-10.173 20.342-10.173zM645.815 0c6.965 0 12.611 5.648 12.611 12.614 0 6.967-5.646 12.615-12.612 12.615-6.965 0-12.612-5.648-12.612-12.615C633.202 5.648 638.85 0 645.814 0zm45.159 42.066a40.491 40.491 0 0120.342-5.444c22.47 0 40.684 18.219 40.684 40.692s-18.215 40.691-40.684 40.691a40.491 40.491 0 01-20.342-5.443V153c-11.235 0-20.342-4.555-20.342-10.173 0-.136.005-.272.016-.407h-.016V47.202h.016a5.188 5.188 0 01-.016-.407c0-5.618 9.107-10.173 20.342-10.173v5.444zm19.528 55.594c11.235 0 20.342-9.11 20.342-20.346 0-11.237-9.107-20.346-20.342-20.346-11.234 0-20.342 9.11-20.342 20.346s9.108 20.346 20.342 20.346z"/><path fill-opacity=".7" d="M109.533 13.683l29.784 29.784c18.244 18.244 18.244 47.823 0 66.067l-29.783 29.783c-18.244 18.244-47.823 18.244-66.067 0l-29.784-29.784c-18.244-18.244-18.244-47.823 0-66.067l29.783-29.783c18.244-18.244 47.823-18.244 66.067 0zM76.43 53.839c-12.478 0-22.592 10.114-22.592 22.592 0 12.477 10.114 22.592 22.592 22.592 12.477 0 22.592-10.115 22.592-22.592 0-12.478-10.115-22.592-22.592-22.592z"/><path d="M76.5 0v53.84h-.07c-12.476 0-22.59 10.114-22.59 22.59 0 12.476 10.114 22.59 22.59 22.59l.069-.002V153c-11.723 0-23.447-4.366-32.518-13.103l-.673-.661-29.644-29.71c-18.219-18.26-18.219-47.793 0-66.051l29.644-29.71C52.462 4.59 64.48 0 76.5 0z"/>
+      </g>
+  </svg>
+      </div>
+     </div> 
+  </div>
+
+  <div class="footer__fix">
+      <div class="footer__list">
+          <div class="footer__orange card">
+              <h1>CODEPIP</h1>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Curriculum</a></li>
+              <li><a href="#">Press</a></li>
+          </div>
+          <div class="footer__blue  card">
+              <h1>FEATURES</h1>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Individual Plans</a></li>
+              <li><a href="#">Group Plans</a></li>
+              <li><a href="#">Classrom</a></li>
+          </div>
+          <div class="footer__green card">
+              <h1>SUPPORT</h1>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+          </div>
+          <div class="footer__pink card">
+              <h1 class="follow">FOLLOW</h1>
+              <i class="fa-brands fa-twitter  icons"> 
+                <!-- <span class="media">Twitter</span>  -->
+              </i>
+              <!-- <i class="fa-brands fa-facebook icons"><span class="media">Facebook</span></i>
+              <i class="fa-brands fa-instagram icons"><span class="media">Instagram<span></i>
+              <i class="fa-brands fa-linkedin icons"><span class="media">Linkedin<span></i>
+              <i class="fa-brands fa-youtube icons"><span class="media" >Youtube</span></i>
+              <i class="fa-solid fa-rss icons"><span class="media">RSS</span></i> -->
+          </div>
+          <div class="footer__indigo">
+              <h1 class="latest">LATEST</h1>
+              <li><a href="#">Intl Delivery, a game about javascript  internalization API,has landed</a></li>
+              <li><a href="#">Gap, aspect ratio,replace all ,and more</a></li>
+              <li><a href="#">Reach your resourcesc with Pathfinder, a game of constructing file paths</a></li>
+              <li><a href="#">Treat yourself to selectors with CSS Scoops</a></li>
+          </div>
+      </div>
+  </div>
+      <div class="copy-right">
+          <span class="copy">&copy;2023 Codepip.All rights reserved.</span>
+      </div>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>

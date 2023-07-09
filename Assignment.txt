@@ -1,0 +1,7 @@
+1.watch mosh videoon building the moshify website.Done
+2.Install chatGpt and Bing and learn how to use both of them. Done
+07/6/23
+1.Done
+2.Done
+3. Enlarge the widthand height of the cards in  the mobile view.Done.
+4.in the head container components the third box is not align with the other boxes fix it.
