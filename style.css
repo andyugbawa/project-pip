@@ -85,6 +85,7 @@ i{
     margin-top: 10px;
     visibility: hidden;
     font-size: 25px;
+    padding:0 10px 0 0;
     
 }
 
@@ -176,7 +177,7 @@ i{
       width:80%;
       /* background-color: red; */
       margin-left:0px;
-      padding: 0px 0 10px 0;
+      padding: 0px 0 10px 10px;
     }
     g{
         width: 50%;
@@ -191,7 +192,7 @@ i{
 
     }
     .toggle-nav-menu{
-        background-color: red;
+        /* background-color: red; */
         height: 50px;
         display: none;
 
@@ -244,7 +245,6 @@ h2{
     width: 180px;
     height: 48px;
     background-color:rgb(23,162,184) ;
-    /* margin: -80px; */
     border-radius: 5px;
     /* border: 4px solid gold; */
     /* display: none; */
@@ -252,9 +252,7 @@ h2{
     
     
 } 
-/* .html-css-js > .btn:hover{
- background-color:red ;
-} */
+
 
 .html-css-js > *{
     width:180px;
@@ -899,7 +897,7 @@ right:128px;
         background-color: purple;
         width:50%;
         height: 200px;
-        padding: 0px 0 0 0;
+        padding: 0px 20 0 0;
         
     }
     
@@ -916,24 +914,23 @@ right:128px;
     
     .greenbox{
         display: flex;
+        flex-direction: column;
         width:500px;
-        height: 10px; 
+        height: 100%; 
         background-color: green;
-        padding: 65px 0px 0 2px;
+        padding: 60px 0px 0 0px;
     }
     
     form{
       background-color: blue;
-      padding: 10px 0 0 0;
-      width: 50%;
-      height: 40px;
+      width: 100%;
+      /* height: 100%; */
     }
     
     input{
         width: 300px;
         height: 50px;
-        padding-left: 8px;
-        margin-left: 70px;
+        padding-left: 10px;
         border: none;
         border-radius: 6px;
         font-size: 18px;
@@ -943,8 +940,9 @@ right:128px;
         /* text-align: center;  */
         color: white;
         font-size: 18px;
-        margin-top: 54px;
-        margin-left: 60px; 
+        margin-top: 10px;
+        /* margin-left: 60px;  */
+        background-color: red;
     }
     .button1{
         /* background-color: rgb(128, 0, 28); */
@@ -1015,7 +1013,7 @@ right:128px;
         justify-content: center;
         align-items: center;
         padding: 0 20px 0 40px;
-        /* margin-left: 12px; */
+       
     }
     
     .footer__box{
@@ -1028,9 +1026,10 @@ right:128px;
     
      .footer__fix{
         display: flex;
-        /* background-color: grey; */
         width: 100%;
         height: 280px;
+        background-color: red;
+
      }
     .footer__list{
       display: flex;
@@ -1065,6 +1064,9 @@ right:128px;
         height: 280px;
         background-color: pink;
         padding: 10px 5px 5px 0px;
+        /* display: none; */
+       
+       
     }
 
     .footer__indigo{
@@ -1075,17 +1077,22 @@ right:128px;
         
     }
     
-    .icons{
-      color: white;
-      font-size: 20px;
-      margin-top: 12px;  
-      background-color: red;
-        
-        
+    .download{
+      background-color:black;
+      width: 20px;
+      height: 20px; 
+      color:black; 
+      border-radius: 2px;
+      margin-top: 10px;
+      margin-right: 10px;
+     
     }
-    
-    
-    
+    .media{
+        font-size: 18px;
+        color: white;
+       
+       
+    }
     h1{
         font-size: 15px;
         margin-bottom: 10px;
@@ -1100,15 +1107,16 @@ right:128px;
         text-decoration: none;
         color: white;
         padding: 0px 1px 0px 0px;
-        /* color: red; */
         font-size: 17px;
         margin-top: 12px;
        
     }
     
     .copy-right{
-        background-color: brown;
-        padding: 20px 10px 10px 115px;
+        background-color: green;
+        padding: 35px 10px 35px 115px;
+        height: 60px;
+       
       
     }
     span{
@@ -1123,21 +1131,36 @@ right:128px;
          color: white;
          font-size: 17px;
          
-         
-         
      }
+
+     span.media, .icons{
+        margin-bottom: 0;
+      
+       
+     }
+
+
     .copy{
         color: white;
         font-size: 12px;
+        height: 60px;
+        background-color: gold;
     }
     
-    /* Media Queries tablets ******************************************************** */
+   
     
     @media (max-width:952px) {
     
         .box{
             background-color: red;
         }
+
+        .cards__container{
+            height: 630vh;
+            
+        }
+
+        
     
         .redbox{
             display: flex;
@@ -1158,9 +1181,6 @@ right:128px;
         }
         .footer-bottom{
             height: 267px;
-            /* background-color: blueviolet; */
-           
-            
         }
         .card-container{
             display: flex;
@@ -1173,19 +1193,16 @@ right:128px;
     
         form{
             margin-top: 0; 
-            padding: 11px 0px 0 10px;
-            /* display: none; */
-           
+            padding: 10px 0px 10px 10px;
         }
        
         .text{
             padding:60px 20px 0p 20px ;
-            /* display:none; */
            
         }
     
         .card-content1{
-            width: 100%;
+          width: 100%;
           height: 267px;
           padding: 0 0  0  200px;
          
@@ -1198,9 +1215,10 @@ right:128px;
         }
         input{
             margin-left: 4px;
+           
         }
-        .button1{
-            padding: 12px 30px 0 60px;
+        .btn1{
+            padding: 4px 30px 5px 30px;
        } 
     
     .footer__list{
@@ -1221,9 +1239,14 @@ right:128px;
       }
     
       .footer__indigo{
-        width:100%;
+        width: 100%;
         height: 50%;
-        padding:0px  5px 5px 20px ;
+        padding: 0px 5px 5px 20px;
+        /* display: none; */
+      }
+
+      .para-text{
+        text-align: center;
       }
     
     }
@@ -1231,6 +1254,10 @@ right:128px;
     @media (max-width:862px) {
         .box{
             background-color: gold;
+        }
+
+        .cards__container{
+            height: 590vh;
         }
     
         .redbox{
@@ -1252,9 +1279,6 @@ right:128px;
         }
         .footer-bottom{
             height: 267px;
-            /* background-color: blueviolet; */
-           
-            
         }
         .card-container{
             display: flex;
@@ -1265,9 +1289,9 @@ right:128px;
        
     
         form{
+            display: flex;
             margin-top: 0; 
             padding: 11px 0px 0 0px;
-            /* display: none; */
            
         }
        
@@ -1283,8 +1307,9 @@ right:128px;
         
     
         .greenbox{
+            
             padding: 10px 0px 0px  0px;
-            width: 55.9%;
+            width: 100%;
            
         }
         input{
@@ -1301,6 +1326,7 @@ right:128px;
        
         
       }
+      
            
     }
     
@@ -1311,7 +1337,7 @@ right:128px;
         }
 
         .cards__container{
-            height: 1350vh;
+            height:1350vh ;
         }
     
         .text1{
@@ -1324,19 +1350,26 @@ right:128px;
         .greenbox{
             display: flex;
             flex-direction: column;
-            width: 80%;
-            padding: 0px 10px 50px 30px;
+            width: 100%;
+            padding: 15px 50px 20px 0px;
+           
         }
         .card-content1{
-            padding: 10px 145px 50px 78px;
+            padding: 10px 0px 10px 80px;
     
         }
-        .form{
-            padding: 0 80px 0 0;
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 0px 0px 10px 20px;
+        }
+        input{
+            margin-bottom: 20px;
         }
     
-        .button1{
-            padding: 30px 30px 0 50px;
+        .btn1{
+            padding: 0px 20px 0 20px;
+            margin-left: 85px;
     }
     
     .text{
@@ -1346,6 +1379,12 @@ right:128px;
     
       .para-text{
         font-size: 15px;
+      }
+
+      .footer-container{
+        margin-top: 80px;
+        padding: 100px 0 0 0 0;
+       
       }
     
       .footer__logo{
@@ -1362,13 +1401,14 @@ right:128px;
       .footer__list{
         display: flex;
         flex-wrap: wrap;
-        gap:10px 80px;
-        padding: 10px 0px 0px  0px;
+        gap:0px;
+        padding: 0px 0px 0px  0px;
+        /* height: 600px; */
       }
     
       .footer__list .card{
-        padding: 0  0 0 10px ;
-        width:30.90% ;
+        padding: 10px  0 0 10px ;
+        width:50% ;
         height: 280px;
        
       }
@@ -1376,7 +1416,8 @@ right:128px;
       
     
       .footer__indigo{
-        height: 186px;
+        height: 250px;
+        padding: 30px 100px 35px 30px;
        
       }
     
@@ -1387,8 +1428,14 @@ right:128px;
     
      .copy-right{
         padding: 20px 20px 0  20px;
+        height: 80px;
      }
     }
+
+
+
+
+    
     
     
 
