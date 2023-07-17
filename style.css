@@ -1146,6 +1146,10 @@ right:128px;
         height: 60px;
         background-color: gold;
     }
+
+    .reserved{
+        color: white;
+    }
     
    
     
@@ -1429,6 +1433,10 @@ right:128px;
      .copy-right{
         padding: 20px 20px 0  20px;
         height: 80px;
+     }
+     .reserved{
+        /* background-color: yellow; */
+        padding-top: 20px;
      }
     }
 
